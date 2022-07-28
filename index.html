@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+	<link rel="icon" href="images/logo.svg" type="image">
+    <link href="boot.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-2 d-none d-sm-block sidebar position-relative">
+				<div class="row">
+					<div class="logo fs-3 mt-3">
+						<img src="images/logo.svg"> MingCute	
+					</div>
+				</div>
+				
+				<div class="row mt-3">
+					<form>
+						<div class="input-group flex-nowrap">
+							<span class="input-group-text sidebar-search border-0" id="addon-wrapping">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.74984 1.66656C4.83782 1.66656 1.6665 4.83788 1.6665 8.7499C1.6665 12.6619 4.83782 15.8332 8.74984 15.8332C10.4056 15.8332 11.9287 15.2651 13.1348 14.3132L16.1783 17.3568C16.5038 17.6822 17.0314 17.6822 17.3568 17.3568C17.6823 17.0314 17.6823 16.5037 17.3568 16.1783L14.3133 13.1347C15.2651 11.9286 15.8332 10.4056 15.8332 8.7499C15.8332 4.83788 12.6618 1.66656 8.74984 1.66656ZM3.33317 8.7499C3.33317 5.75836 5.7583 3.33323 8.74984 3.33323C11.7414 3.33323 14.1665 5.75836 14.1665 8.7499C14.1665 11.7415 11.7414 14.1666 8.74984 14.1666C5.7583 14.1666 3.33317 11.7415 3.33317 8.7499Z" fill="#B5BDC9"/>
+								</svg>
+							</span>
+							<input type="text" class="form-control sidebar-search border-0" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping">
+						</div>
+					</form>
+				</div>
+				
+				<div class="row mt-3">
+					<ul class="list-group">
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.97691 1.24012C8.54113 0.801268 9.3171 0.77384 9.90778 1.15783L10.0233 1.24012L17.0098 6.67404C17.6113 7.14185 17.3183 8.08386 16.5945 8.16155L16.4977 8.16667H15.6668V14.8333C15.6668 15.712 14.9869 16.4318 14.1245 16.4954L14.0002 16.5H4.00012C3.12149 16.5 2.40165 15.8201 2.33803 14.9577L2.33346 14.8333V8.16667H1.50256C0.741417 8.16667 0.392976 7.24368 0.917077 6.73758L0.990424 6.67404L7.97691 1.24012ZM9.00016 2.55571L3.68797 6.68739C3.87841 6.8417 4.00012 7.07748 4.00012 7.34167V14.8333H6.50012V10.6667C6.50012 9.28592 7.61942 8.16667 9.00016 8.16667C10.3808 8.16667 11.5002 9.28592 11.5002 10.6667V14.8333H14.0002V7.34167C14.0002 7.07746 14.1218 6.84169 14.3122 6.68739L9.00016 2.55571ZM9.00016 9.83334C8.53992 9.83334 8.16683 10.2064 8.16683 10.6667V14.8333H9.8335V10.6667C9.8335 10.2064 9.46033 9.83334 9.00016 9.83334Z" fill="#8491A5"/>
+							</svg>
+							
+							<span class="ps-2">Dashboard</span>
+						</div>
+						
+						<span class="badge rounded-pill"></span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.4999 1.66666C13.0694 1.66666 13.5721 1.95224 13.8727 2.388L13.9436 2.49999H14.9999C15.8786 2.49999 16.5984 3.17989 16.662 4.04227L16.6666 4.16666V14.1667C16.6666 16.4073 14.898 18.2348 12.6807 18.3295L12.4999 18.3333H4.99992C4.12128 18.3333 3.40145 17.6534 3.33782 16.791L3.33325 16.6667V4.16666C3.33325 3.28802 4.01315 2.56819 4.87553 2.50456L4.99992 2.49999H6.05622C6.32223 2.04014 6.80164 1.71919 7.35903 1.67253L7.49992 1.66666H12.4999ZM5.83325 4.16666H4.99992V16.6667H12.4999C13.8807 16.6667 14.9999 15.5474 14.9999 14.1667V4.16666H14.1666C14.1666 5.08713 13.4204 5.83332 12.4999 5.83332H7.49992C6.57944 5.83332 5.83325 5.08713 5.83325 4.16666ZM9.99992 11.6667C10.4602 11.6667 10.8333 12.0397 10.8333 12.5C10.8333 12.9274 10.5116 13.2796 10.0971 13.3277L9.99992 13.3333H7.49992C7.03969 13.3333 6.66659 12.9602 6.66659 12.5C6.66659 12.0726 6.98829 11.7204 7.40274 11.6723L7.49992 11.6667H9.99992ZM12.4999 8.33332C12.9602 8.33332 13.3333 8.70641 13.3333 9.16666C13.3333 9.62691 12.9602 9.99999 12.4999 9.99999H7.49992C7.03969 9.99999 6.66659 9.62691 6.66659 9.16666C6.66659 8.70641 7.03969 8.33332 7.49992 8.33332H12.4999ZM12.4999 3.33332H7.49992V4.16666H12.4999V3.33332Z" fill="#8491A5"/>
+							</svg>
+							<span class="ps-2">Orders</span>
+						</div>
+						<span class="badge rounded-pill">5</span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.3333 2.5C13.7936 2.5 14.1667 2.8731 14.1667 3.33333V4.16667H15.8333C16.7538 4.16667 17.5 4.91286 17.5 5.83333V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H4.16667C3.24619 17.5 2.5 16.7538 2.5 15.8333V5.83333C2.5 4.91286 3.24619 4.16667 4.16667 4.16667H5.83333V3.33333C5.83333 2.8731 6.20642 2.5 6.66667 2.5C7.12691 2.5 7.5 2.8731 7.5 3.33333V4.16667H12.5V3.33333C12.5 2.8731 12.8731 2.5 13.3333 2.5ZM15.8333 5.83333H4.16667V15.8333H15.8333V5.83333ZM12.3534 7.8156C12.6788 7.49017 13.2065 7.49017 13.5319 7.8156C13.8574 8.14103 13.8574 8.66867 13.5319 8.99408L9.41308 13.113C9.08433 13.4417 8.55142 13.4417 8.22276 13.113L6.46088 11.3512C6.13544 11.0257 6.13544 10.4981 6.46088 10.1726C6.78632 9.84717 7.31396 9.84717 7.63939 10.1726L8.81792 11.3512L12.3534 7.8156Z" fill="#8491A5"/>
+							</svg>
+							<span class="ps-2">Schedules</span>
+						</div>
+						<span class="badge rounded-pill"></span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M15.8334 2.5C17.2142 2.5 18.3334 3.61929 18.3334 5V13.3333C18.3334 14.7141 17.2142 15.8333 15.8334 15.8333H6.11119L3.33341 17.9167C2.64671 18.4317 1.66675 17.9418 1.66675 17.0833V5C1.66675 3.61929 2.78604 2.5 4.16675 2.5H15.8334ZM15.8334 4.16667H4.16675C3.70651 4.16667 3.33341 4.53977 3.33341 5V15.8333L5.11119 14.5C5.39969 14.2837 5.75057 14.1667 6.11119 14.1667H15.8334C16.2937 14.1667 16.6667 13.7936 16.6667 13.3333V5C16.6667 4.53977 16.2937 4.16667 15.8334 4.16667ZM9.16675 10C9.627 10 10.0001 10.3731 10.0001 10.8333C10.0001 11.2607 9.67839 11.6129 9.26393 11.6611L9.16675 11.6667H6.66675C6.20651 11.6667 5.83341 11.2936 5.83341 10.8333C5.83341 10.406 6.15512 10.0537 6.56956 10.0056L6.66675 10H9.16675ZM13.3334 6.66667C13.7937 6.66667 14.1667 7.03977 14.1667 7.5C14.1667 7.96023 13.7937 8.33333 13.3334 8.33333H6.66675C6.20651 8.33333 5.83341 7.96023 5.83341 7.5C5.83341 7.03977 6.20651 6.66667 6.66675 6.66667H13.3334Z" fill="#8491A5"/>
+							</svg>
+							<span class="ps-2">Messages</span>
+						</div>
+						<span class="badge rounded-pill">3</span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5C2.5 3.61929 3.61929 2.5 5 2.5H15C16.3807 2.5 17.5 3.61929 17.5 5V10.8333V15C17.5 16.3807 16.3807 17.5 15 17.5H5C3.61929 17.5 2.5 16.3807 2.5 15V10.8333V5ZM13.2283 11.6667H15.8333V15C15.8333 15.4602 15.4602 15.8333 15 15.8333H5C4.53977 15.8333 4.16667 15.4602 4.16667 15V11.6667H6.77168C7.14172 13.1043 8.44683 14.1667 10 14.1667C11.5532 14.1667 12.8582 13.1043 13.2283 11.6667ZM11.6667 10.8333C11.6667 10.3731 12.0398 10 12.5 10H15.8333V5C15.8333 4.53977 15.4602 4.16667 15 4.16667H5C4.53977 4.16667 4.16667 4.53977 4.16667 5V10H7.5C7.96023 10 8.33333 10.3731 8.33333 10.8333C8.33333 11.7538 9.0795 12.5 10 12.5C10.9205 12.5 11.6667 11.7538 11.6667 10.8333Z" fill="#8491A5"/>
+							</svg>
+							<span class="ps-2">Inbox</span>
+						</div>
+						<span class="badge rounded-pill"></span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center active rounded">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.6667 2.5C12.5872 2.5 13.3334 3.24619 13.3334 4.16667V6.66667H16.6667C17.5872 6.66667 18.3334 7.41286 18.3334 8.33333V15.8333C18.3334 16.7538 17.5872 17.5 16.6667 17.5H3.33341C2.41294 17.5 1.66675 16.7538 1.66675 15.8333V10.8333C1.66675 9.91283 2.41294 9.16667 3.33341 9.16667H6.66675V4.16667C6.66675 3.24619 7.41294 2.5 8.33341 2.5H11.6667ZM11.6667 4.16667H8.33341V15.8333H11.6667V4.16667ZM16.6667 8.33333H13.3334V15.8333H16.6667V8.33333ZM6.66675 10.8333H3.33341V15.8333H6.66675V10.8333Z" fill="white"/>
+							</svg>
+
+							<span class="ps-2">Analytics</span>
+						</div>
+						<span class="badge rounded-pill"></span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.3333 0.5C12.212 0.5 12.9318 1.1799 12.9954 2.04228L13 2.16667V6.33333H14.25C14.8997 6.33333 15.4337 6.82909 15.4943 7.46295L15.5 7.58333V13.8333C15.5 15.1648 14.4593 16.2531 13.1469 16.3291L13 16.3333H2.16667C1.28803 16.3333 0.568196 15.6535 0.504571 14.7911L0.5 14.6667V2.16667C0.5 1.28803 1.1799 0.568196 2.04228 0.504571L2.16667 0.5H11.3333ZM13.8333 8H13V14.6667C13.4602 14.6667 13.8333 14.2936 13.8333 13.8333V8ZM11.3333 2.16667H2.16667V14.6667H11.3333V2.16667ZM7.16667 8.83333C7.62692 8.83333 8 9.20642 8 9.66667C8 10.094 7.67831 10.4463 7.26385 10.4944L7.16667 10.5H4.66667C4.20643 10.5 3.83333 10.1269 3.83333 9.66667C3.83333 9.23929 4.15504 8.88708 4.56948 8.83894L4.66667 8.83333H7.16667ZM8.83333 4.66667C9.29358 4.66667 9.66667 5.03977 9.66667 5.5C9.66667 5.96023 9.29358 6.33333 8.83333 6.33333H4.66667C4.20643 6.33333 3.83333 5.96023 3.83333 5.5C3.83333 5.03977 4.20643 4.66667 4.66667 4.66667H8.83333Z" fill="#8491A5"/>
+							</svg>
+
+							<span class="ps-2">News</span>
+						</div>
+						<span class="badge rounded-pill"></span>
+					  </li>
+					  
+					  <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6958 2.34068C12.0033 2.1194 12.4368 2.01593 12.8633 2.17194C13.7777 2.50649 14.6164 2.9963 15.3478 3.60894C15.6954 3.90009 15.8226 4.32669 15.7848 4.70327C15.722 5.33064 15.8327 5.93639 16.1341 6.4585C16.4022 6.92281 16.803 7.28958 17.2926 7.54742L17.4803 7.63899C17.826 7.79479 18.1326 8.11907 18.2103 8.56692C18.2911 9.03309 18.3332 9.512 18.3332 10.0001C18.3332 10.4882 18.2911 10.9672 18.2103 11.4333C18.1404 11.8364 17.885 12.1393 17.5827 12.3095L17.4803 12.3613C16.9053 12.6205 16.4357 13.0194 16.1341 13.5418C15.8327 14.0638 15.722 14.6695 15.7848 15.2968C15.8225 15.6734 15.6954 16.1 15.3478 16.3912C14.6164 17.0038 13.7777 17.4936 12.8633 17.8281C12.4369 17.9842 12.0033 17.8807 11.6959 17.6593C11.1837 17.2907 10.6033 17.0833 9.99984 17.0833C9.39642 17.0833 8.816 17.2907 8.30379 17.6593C7.99638 17.8807 7.56277 17.9842 7.13632 17.8281C6.22196 17.4936 5.38319 17.0038 4.65175 16.3911C4.3042 16.1 4.17708 15.6734 4.21479 15.2968C4.2776 14.6695 4.16688 14.0638 3.86545 13.5418C3.59739 13.0775 3.19663 12.7107 2.70699 12.4528L2.5193 12.3613C2.17367 12.2054 1.86713 11.8812 1.78944 11.4333C1.70856 10.9672 1.6665 10.4882 1.6665 10.0001C1.6665 9.51192 1.70856 9.033 1.78943 8.56675C1.85935 8.16373 2.11464 7.86077 2.41696 7.69062L2.51929 7.63887C3.09437 7.37963 3.56388 6.98074 3.86545 6.45839C4.16689 5.9363 4.27761 5.33059 4.21479 4.70326C4.17707 4.32669 4.30419 3.90013 4.65175 3.609C5.3832 2.99633 6.222 2.5065 7.1364 2.17194C7.56282 2.01592 7.99641 2.1194 8.30382 2.34068C8.816 2.70936 9.39642 2.91669 9.99984 2.91669C10.6033 2.91669 11.1837 2.70936 11.6958 2.34068ZM12.4929 3.81494C11.7716 4.28929 10.9209 4.58336 9.99984 4.58336C9.07875 4.58336 8.22807 4.28929 7.50677 3.81494C6.92256 4.05067 6.37902 4.36702 5.89 4.75047C5.93978 5.61167 5.769 6.49471 5.30883 7.29173C4.84855 8.08898 4.16896 8.6785 3.39799 9.066C3.3553 9.37084 3.33317 9.68267 3.33317 10.0001C3.33317 10.3175 3.3553 10.6293 3.39799 10.9342C4.16896 11.3217 4.84855 11.9112 5.30883 12.7084C5.76899 13.5054 5.93978 14.3884 5.89 15.2496C6.379 15.6331 6.92252 15.9494 7.5067 16.1852C8.22801 15.7108 9.07875 15.4167 9.99984 15.4167C10.9209 15.4167 11.7717 15.7108 12.493 16.1852C13.0771 15.9494 13.6206 15.6331 14.1096 15.2497C14.0598 14.3885 14.2306 13.5054 14.6908 12.7084C15.1511 11.9111 15.8307 11.3216 16.6017 10.9341C16.6444 10.6293 16.6665 10.3175 16.6665 10.0001C16.6665 9.68267 16.6444 9.37092 16.6017 9.06617C15.8307 8.67867 15.1511 8.08911 14.6908 7.29184C14.2306 6.49476 14.0598 5.61167 14.1096 4.75042C13.6206 4.36699 13.0771 4.05066 12.4929 3.81494ZM9.99984 6.66667C11.8408 6.66667 13.3332 8.15905 13.3332 10C13.3332 11.8409 11.8408 13.3333 9.99984 13.3333C8.15889 13.3333 6.6665 11.8409 6.6665 10C6.6665 8.15905 8.15889 6.66667 9.99984 6.66667ZM9.99984 8.33334C9.07934 8.33334 8.33317 9.0795 8.33317 10C8.33317 10.9205 9.07934 11.6667 9.99984 11.6667C10.9203 11.6667 11.6665 10.9205 11.6665 10C11.6665 9.0795 10.9203 8.33334 9.99984 8.33334Z" fill="#8491A5"/>
+							</svg>
+
+							<span class="ps-2">Settings</span>
+						</div>
+						<span class="badge rounded-pill"></span>
+					  </li>
+					</ul>
+				</div>
+				
+				<div class="row sidebar-footer position-absolute bottom-0 start-0 d-flex align-items-center">
+					<div class="col-3">
+						<img src="images/Palm_round.png">
+					</div>
+							
+					<div class="col-6">
+								<div class="fw-bold">Richard</div>
+								<div class="email">9394lay@gmail.com</div>
+					</div>
+					
+					<div class="col-3">
+						<img href="images/exit.png">
+
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="col-xs-12 col-sm-10 main-screen">
+				<div class="row top-row mb-3 mt-4 gx-1">
+					<div class="bg-white card-stat card-stat-top d-flex align-items-center">
+					<div class = "row d-flex justify-content-between w-100">
+						<div class="col">
+							<div class="text-center pb-1">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.00008 0.666672C4.39771 0.666672 0.666748 4.39763 0.666748 9C0.666748 13.6023 4.39771 17.3333 9.00008 17.3333C13.6024 17.3333 17.3334 13.6023 17.3334 9C17.3334 4.39763 13.6024 0.666672 9.00008 0.666672ZM6.08341 6.08334C6.08341 4.47251 7.38925 3.16667 9.00008 3.16667C10.6109 3.16667 11.9167 4.47251 11.9167 6.08334C11.9167 7.69417 10.6109 9 9.00008 9C7.38925 9 6.08341 7.69417 6.08341 6.08334ZM3.39858 12.6163C4.77252 11.4932 6.77901 10.6667 9.00008 10.6667C11.2212 10.6667 13.2277 11.4932 14.6016 12.6163C13.4142 14.4519 11.349 15.6667 9.00008 15.6667C6.65121 15.6667 4.58606 14.4519 3.39858 12.6163Z" fill="#007AFF"/>
+								</svg>
+								Users
+							</div>
+							<div class="bold-figures text-center pb-1">2,756</div>
+							<div class="text-center text-success">
+								<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.38013 8.16571C0.890361 8.1064 0.597811 7.59831 0.791666 7.14508C1.01852 6.61468 1.55785 5.42452 2.42971 3.91442C3.30177 2.40397 4.06294 1.34167 4.40874 0.880217C4.70414 0.486018 5.29019 0.484867 5.58649 0.879467C5.92984 1.33672 6.68189 2.38617 7.56454 3.91497C8.44749 5.44427 8.98039 6.62059 9.20459 7.14627C9.39789 7.59964 9.10479 8.10637 8.61604 8.16559C8.04514 8.23476 6.74869 8.36334 4.99759 8.36334C3.2475 8.36334 1.95156 8.23491 1.38013 8.16571Z" fill="#2AC670"/>
+								</svg>
+								%10
+							</div>
+							
+							
+						</div>
+						
+						<div class="divider"></div>
+					
+						<div class="col">
+							<div class="d-flex justify-content-center pb-1">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.00008 0.66748C13.6024 0.66748 17.3334 4.39844 17.3334 9.00081C17.3334 13.6031 13.6024 17.3341 9.00008 17.3341C4.39771 17.3341 0.666748 13.6031 0.666748 9.00081C0.666748 4.39844 4.39778 0.66748 9.00008 0.66748ZM9.00008 2.33415V9.0009H15.6667C15.6667 5.31896 12.682 2.33415 9.00008 2.33415Z" fill="#02CACD"/>
+								</svg>
+								New
+							</div>
+							<div class="bold-figures text-center pb-1">253</div>
+							<div class="text-center text-danger">
+								<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.38013 0.834349C0.890361 0.893664 0.597811 1.40175 0.791666 1.85498C1.01852 2.38538 1.55785 3.57554 2.42971 5.08564C3.30177 6.59609 4.06294 7.65839 4.40874 8.11984C4.70414 8.51404 5.29019 8.51519 5.58649 8.12059C5.92984 7.66334 6.68189 6.61389 7.56454 5.08509C8.44749 3.55579 8.98039 2.37947 9.20459 1.85379C9.39789 1.40042 9.10479 0.893689 8.61604 0.834469C8.04514 0.765299 6.74869 0.636719 4.99759 0.636719C3.2475 0.636719 1.95156 0.765149 1.38013 0.834349Z" fill="#FF6252"/>
+								</svg>
+								%10
+							</div>
+							
+						</div>	
+						
+						<div class="divider"></div>
+					
+						<div class="col">
+							<div class="text-center pb-1">
+								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M7.78121 0.803599C8.46321 0.741591 9.13818 0.962201 9.65065 1.40915L9.77529 1.52557L16.2944 8.04467C17.2317 8.98187 17.2691 10.4782 16.4068 11.4602L16.2944 11.5802L11.5803 16.2943C10.6431 17.2315 9.14679 17.2689 8.16479 16.4067L8.04479 16.2943L1.5257 9.77517C1.04142 9.29087 0.778799 8.6311 0.794089 7.95129L0.803734 7.78101L1.19658 3.45983C1.30128 2.30803 2.1802 1.38549 3.31108 1.21445L3.45997 1.19644L7.78121 0.803599ZM5.68694 5.68764C5.03607 6.33852 5.03607 7.39376 5.68694 8.04467C6.33782 8.69551 7.39313 8.69551 8.04396 8.04467C8.69488 7.39376 8.69488 6.33852 8.04396 5.68764C7.39313 5.03677 6.33782 5.03677 5.68694 5.68764Z" fill="#956AFF"/>
+								</svg>
+								Average
+							</div>
+							<div class="bold-figures text-center pb-1">896</div>
+							<div class="text-center text-success">
+								<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.38013 8.16571C0.890361 8.1064 0.597811 7.59831 0.791666 7.14508C1.01852 6.61468 1.55785 5.42452 2.42971 3.91442C3.30177 2.40397 4.06294 1.34167 4.40874 0.880217C4.70414 0.486018 5.29019 0.484867 5.58649 0.879467C5.92984 1.33672 6.68189 2.38617 7.56454 3.91497C8.44749 5.44427 8.98039 6.62059 9.20459 7.14627C9.39789 7.59964 9.10479 8.10637 8.61604 8.16559C8.04514 8.23476 6.74869 8.36334 4.99759 8.36334C3.2475 8.36334 1.95156 8.23491 1.38013 8.16571Z" fill="#2AC670"/>
+								</svg>
+								%10
+							</div>
+						</div>
+						
+						<div class="divider"></div>
+						
+						<div class="col align-items-center">
+							<div class="text-center pb-1">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M13.8333 2.99049V3.83333C14.7538 3.83333 15.5 4.57952 15.5 5.49999V13.8333C15.5 14.7538 14.7538 15.5 13.8333 15.5H2.16667C1.24619 15.5 0.5 14.7538 0.5 13.8333V5.49999C0.5 4.62953 1.19569 3.8393 2.011 3.60636L11.1777 0.987311C12.5085 0.607061 13.8333 1.60636 13.8333 2.99049ZM10.9167 8.41667C10.2263 8.41667 9.66667 8.97634 9.66667 9.66667C9.66667 10.357 10.2263 10.9167 10.9167 10.9167C11.607 10.9167 12.1667 10.357 12.1667 9.66667C12.1667 8.97634 11.607 8.41667 10.9167 8.41667ZM12.1667 2.99049C12.1667 2.73673 11.944 2.54765 11.7019 2.57647L11.6355 2.58985L7.28342 3.83333H12.1667V2.99049Z" fill="#FDAD15"/>
+								</svg>
+								Total
+							</div>
+							<div class="bold-figures text-center pb-1">253</div>
+							<div class="text-center text-danger">
+								<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M1.38013 0.834349C0.890361 0.893664 0.597811 1.40175 0.791666 1.85498C1.01852 2.38538 1.55785 3.57554 2.42971 5.08564C3.30177 6.59609 4.06294 7.65839 4.40874 8.11984C4.70414 8.51404 5.29019 8.51519 5.58649 8.12059C5.92984 7.66334 6.68189 6.61389 7.56454 5.08509C8.44749 3.55579 8.98039 2.37947 9.20459 1.85379C9.39789 1.40042 9.10479 0.893689 8.61604 0.834469C8.04514 0.765299 6.74869 0.636719 4.99759 0.636719C3.2475 0.636719 1.95156 0.765149 1.38013 0.834349Z" fill="#FF6252"/>
+								</svg>
+								%10
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row mid-row gx-3 mb-3">
+					<div class="col-7">
+						<div class="card-stat bg-white pt-3 ps-3">
+							<div class="d-flex justify-content-between me-4 mb-5">
+								<div class="card-title">Performance</div>
+								<div class="btn-group period-btn align-items-center">
+									  <input type="radio" class="btn-check" name="Performance" id="option1" autocomplete="off" checked />
+									  <label class="btn btn-secondary details-text border-0" for="option1">Day</label>
+
+									  <input type="radio" class="btn-check" name="Performance" id="option2" autocomplete="off" />
+									  <label class="btn btn-secondary details-text border-0" for="option2">Week</label>
+
+									  <input type="radio" class="btn-check" name="Performance" id="option3" autocomplete="off" />
+									  <label class="btn btn-secondary details-text border-0" for="option3">Month</label>
+								</div>
+							</div>	
+							<div class="d-flex position-relative">
+								<img class="bar-chart-img" src="images/bar-chart.png">
+								<ul class="list-group bar-chart-y">
+									<li class="list-group-item border-0">150</li> 
+									<li class="list-group-item border-0">100</li>
+									<li class="list-group-item border-0">50</li>
+									<li class="list-group-item border-0">0</li>
+								</ul>
+								
+								<div class="bar-chart d-flex">
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+								</div>
+								
+								
+							</div>
+							<ul class="list-group bar-chart-x">
+								<li class="list-group-item border-0">Sun</li> 
+								<li class="list-group-item border-0">Mon</li> 
+								<li class="list-group-item border-0">Tue</li> 
+								<li class="list-group-item border-0">Wed</li> 
+								<li class="list-group-item border-0">Thu</li> 
+								<li class="list-group-item border-0">Fri</li>
+								<li class="list-group-item border-0">Sat</li> 
+												
+							</ul>
+						</div>
+					</div>
+					
+					
+					<div class="col-5">
+						<div class="bg-white card-stat pt-3 ps-3 pe-3">
+							<div class="card-title">Details</div>
+							<table class="table table-borderless details-text mt-3">
+								<tbody>
+									<tr>
+									  <td>Previous Close</td>
+									  <td class="fw-bold text-end">4,324.32</td>
+									 </tr>
+									 
+									 <tr>
+									  <td>Year Range</td>
+									  <td class="fw-bold text-end">4,834.32 - 4,932.53</td>
+									 </tr>
+									 
+									 <tr>
+									  <td>Day Range</td>
+									  <td class="fw-bold text-end">2,623.28 - 3,823.74</td>
+									 </tr>
+									 
+									 <tr>
+									  <td>Market Cap</td>
+									  <td class="fw-bold text-end">$23.7 T USD</td>
+									 </tr>
+									 
+									 <tr>
+									  <td>P/E Ratio</td>
+									  <td class="fw-bold text-end">82.73</td>
+									 </tr>
+								</tbody>
+							</table>
+						</div>
+								
+					</div>
+				</div>
+				
+				<div class="row bottom-row gx-3 mb-3">
+					<div class="col-7">
+						<div class="card-stat bg-white pt-3 ps-3 position-relative">
+							<div class="d-flex justify-content-between me-4 mb-5">
+								<div class="card-title">Watchlists</div>
+								<div class="btn-group period-btn align-items-center">
+									  <input type="radio" class="btn-check" name="Watchlists" id="option4" autocomplete="off" checked />
+									  <label class="btn btn-secondary details-text border-0" for="option4">Day</label>
+
+									  <input type="radio" class="btn-check" name="Watchlists" id="option5" autocomplete="off" />
+									  <label class="btn btn-secondary details-text border-0" for="option5">Week</label>
+
+									  <input type="radio" class="btn-check" name="Watchlists" id="option6" autocomplete="off" />
+									  <label class="btn btn-secondary details-text border-0" for="option6">Month</label>
+								</div>
+							</div>	
+							<div class="d-flex position-relative">
+								<img class="watchlists-img" src="images/Watchlists.png">
+								<ul class="list-group bar-chart-y">
+									<li class="list-group-item border-0">300</li> 
+									<li class="list-group-item border-0">200</li>
+									<li class="list-group-item border-0">100</li>
+									<li class="list-group-item border-0">0</li>
+								</ul>
+								
+								<div class="bar-chart d-flex">
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+									<div class="bar-chart-line"></div>
+								</div>
+								
+								
+							</div>
+							<ul class="list-group bar-chart-x watchlists-chart">
+								<li class="list-group-item border-0">May 5</li> 
+								<li class="list-group-item border-0">May 6</li> 
+								<li class="list-group-item border-0">May 7</li> 
+								<li class="list-group-item border-0">May 8</li> 
+								<li class="list-group-item border-0">May 9</li> 
+								<li class="list-group-item border-0">May 10</li>
+								<li class="list-group-item border-0">May 11</li> 		
+							</ul>
+							
+							<div class="dot">
+								<div class="note note_bg">
+								</div>
+								
+								<div class="note">
+									<span class="note_number">276</span>
+									<span class="note_date">May 7</span>
+								</div>
+							</div>
+						</div>
+					</div>
+								
+								
+							
+						
+										
+					<div class="col-5">
+						<div class="card-stat circle-stat bg-white pt-3 ps-3">
+							<div class="card-title">Total Count</div>
+							<div class="w-100 d-flex justify-content-center">
+								<div class="circle d-flex align-items-center justify-content-center">
+									<div>
+										<div class="details-text text-center">Total</div>
+										<div class="bold-figures">1,323</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+						
+		</div>
+	</div>
+	
+    <script src="boot.js"></script>
+  </body>
+</html>
+
+
+
